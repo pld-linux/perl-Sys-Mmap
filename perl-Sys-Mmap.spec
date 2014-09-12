@@ -49,5 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Sys/*.pm
 %dir %{perl_vendorarch}/auto/Sys/Mmap
 %attr(755,root,root) %{perl_vendorarch}/auto/Sys/Mmap/*.so
-%{perl_vendorarch}/auto/Sys/Mmap/*.bs
 %{_mandir}/man3/*
