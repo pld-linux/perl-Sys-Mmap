@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Sys
 %define		pnam	Mmap
 Summary:	Sys::Mmap - Perl module that allows to use mmap to map in a file as a Perl variable
