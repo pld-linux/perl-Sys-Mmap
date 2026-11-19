@@ -6,13 +6,13 @@
 %define		pnam	Mmap
 Summary:	Sys::Mmap - Perl module that allows to use mmap to map in a file as a Perl variable
 Name:		perl-Sys-Mmap
-Version:	0.19
-Release:	9
+Version:	0.21
+Release:	1
 # sae as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Sys/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	990c9106a88dc843035f7bcb109e6c0e
+Source0:	https://cpan.metacpan.org/authors/id/T/TO/TODDR/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	54b46bc153c3fd36dba79b7bab2502d8
 URL:		http://search.cpan.org/dist/Sys-Mmap/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
